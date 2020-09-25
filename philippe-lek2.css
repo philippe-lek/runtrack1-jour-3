@@ -1,0 +1,30 @@
+body {
+    background-color: salmon;  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.global {
+    border: 2px solid;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 8px 8px 0px #aaa; 
+}
+
+img    {
+    height: 320px;
+    width: 320px;
+}
+
+p {
+    font-family: Tahoma;
+}
+
+h1 {
+    font-family: Geneva;
+}
+a:hover {
+    color: blue;
+}

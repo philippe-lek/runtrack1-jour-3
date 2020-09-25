@@ -1,0 +1,49 @@
+img {
+    height: 600px;
+    width: 520px;
+    border-radius: 900px;
+ 
+}
+body {
+    background: url(IMG/notre-dame.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: ranchers;
+}
+#image {
+    justify-self: end;
+    position:relative ;
+}
+#main {
+    display: grid;
+    grid-template-columns:auto auto auto;
+}
+h1{
+    font-size: 60px;
+    color: deeppink;
+    vertical-align: top;
+    grid-column: 1/4;
+    text-align: center;
+}
+p {
+    font-size: 40px;
+    color: deeppink;
+}
+nav{
+    grid-column: 3;
+    white-space: pre-line;
+    font-size: 50px;
+    justify-content: center;
+    
+}
+a{
+    color: deeppink;
+}
+a:hover{
+    color: orange;
+}
+
+    
+  
+
+    

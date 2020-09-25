@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  background-image: url(IMG/img-music.jpg);
+  background-size: 1600px;
+}
+
+.global {
+  margin-top: 30px;
+  width: 960px;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  border: 5px solid;
+}
+
+.photo {
+  border: 0px;
+}
+
+.img {
+  border: 0px;
+  width: 475px;
+  height: 100%;
+}
+
+.presentation {
+  border: 0px;
+  padding: 20px;
+  background-color: rgb(60, 130, 158);
+}
+
+.nav {
+  text-align: center;
+}
+
+a {
+  color: white;
+  font-size: 50px;
+}
+a:hover {
+  color: cornflowerblue;
+}
+
+p {
+  font-family: Helvetica;
+}

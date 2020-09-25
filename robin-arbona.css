@@ -1,0 +1,57 @@
+body {
+    color: white;
+    height: 100%;
+}
+#main_content{
+    background-color: black;
+    font-family: monospace;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    border-radius: 1%;
+}
+p {
+    margin: 0px;
+}
+img {
+    width: 40%;
+    border-radius: 2%;
+    margin-left: 5%;
+}
+h1 {
+    color: whitesmoke;
+    text-transform: full-width;
+    position: absolute;
+    left: 8px;
+    top: 1px;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+}
+main {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+}
+main p {
+    font-size: 25px;
+}
+nav {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    clear: both;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    text-transform: full-width;
+    color: black ;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+a:hover {
+    background-color: grey;
+}
+a.general {
+    color: dimgray;
+}

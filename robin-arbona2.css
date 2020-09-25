@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: linear-gradient(#c74b26, #fd38ed);
+    display: grid;
+}
+#main_content {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 10% auto auto;
+    padding: 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 10px solid white;
+    box-shadow: 10px 5px 5px #c74b26;
+    margin: 10% 10% 10% 10%;
+    color: snow;
+}
+nav {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    justify-self: center;
+    align-self: center;
+    display: inline-grid;  
+}
+nav a {
+    padding:15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav a:hover {
+    border-bottom: 1px solid white;
+}
+img {
+    grid-column-start: 2;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+}
+main {
+    grid-column-start: 3;
+    width: 90%;
+    align-self: center;
+    justify-self: center;
+}
+h1{
+    border-bottom:1px solid white;
+    color: white;
+    font-weight: bold;
+    text-transform: full-width;
+}

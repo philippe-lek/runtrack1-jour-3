@@ -1,0 +1,49 @@
+h1 { 
+    font-size:50px;
+    text-align: center;
+    color:orangered;
+    font-family: lobster;
+}
+h2{
+    font-size:30px;
+    text-align: center;
+    color:orangered;
+}
+p {
+    font-size:25px;
+    color:white;
+    text-align: center;
+}
+a {
+    font-size:20px;
+    color:orangered;
+    padding-left: 20px
+}
+nav {
+    text-align: center;
+}
+#photo {
+    text-align: center;*
+}
+.toi {
+    color:orangered;
+    font-weight: bold;
+}
+u {
+    font-weight: bold;
+}
+body {
+    background-image: url("IMG/reglage-photo-coucher-de-soleil.jpg"); 
+    background-repeat:no-repeat; 
+    background-size: cover;
+}
+a:hover{
+    color: white;
+}
+a:hover{
+    text-shadow: 2px 2px 0px #000000
+}
+img {
+    box-shadow: 5px 3px 0px;
+    border-radius:10px
+}       
